@@ -4,13 +4,15 @@
     Welcome to my Playground
   </div>
   <div>
-    <div class="text-[1.8rem] pb-2">這裡是什麼地方?
+    <div class="h-[40vh]">
+      <img src="" alt="">      
       <p class="text-[1rem] text-slate=300">WHAT?</p>
+      <a href="">more....</a>
     </div>
-    <div class="text-[1.8rem] pb-2">這裡存放了一些突發奇想的作品
-      主要都是由自已生活鎖事發想
-      <p class="text-[1rem] text-slate=300">(Hello, this is SUZURU Interest is learning,
-        It seems to know a lot of things, but it doesn't seem to be that good)</p>
-    </div>
+    <div class="h-[40vh]">
+      <img src="" alt="">      
+      <p class="text-[1rem] text-slate=300">WHAT?</p>
+      <a href="">more....</a>
+    </div>    
   </div>  
 </template>
