@@ -1,5 +1,4 @@
 <template>
- <P class="text-xl pb-3 to-light-50 ">ABOUT</P>
  <div class="w-full h-auto bg-slate-900 ">
       <div class="pt-5 pb-5 pl-5 text-light-50">
         <P class="text-xl pb-3 ">ABOUT</P>

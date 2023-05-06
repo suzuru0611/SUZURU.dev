@@ -1,11 +1,19 @@
 <template>
-    <div class="h-[5vh]">
-        <div class="w-full flex justify-center  bg-stone-100">
-            <p class="text-xl ">Main Page</p>
-        </div>
+    <div class="h-[5vh] flex justify-between">
         <div>
-            <NuxtLink to="/about">
-                <p class="text">about</p>
+            <NuxtLink to="/" class="">
+                <img src="../assets/icon.png"/>
+            </NuxtLink>
+        </div>
+        <div class="flex col justify-between w-[20rem] text-2xl">
+            <NuxtLink to="/works" class="text-black no-underline hover:underline underline-offset-4">
+                <p>Works</p>
+            </NuxtLink>
+            <NuxtLink to="/about" class="text-black no-underline hover:underline underline-offset-4">
+                <p>About</p>
+            </NuxtLink>
+            <NuxtLink to="/contact" class="text-black no-underline hover:underline underline-offset-4">
+                <p>Contact</p>
             </NuxtLink>
         </div> 
     </div>
