@@ -1,8 +1,8 @@
 <template>
-    <div class="h-[5vh] flex justify-between">
+    <div class="h-[10vh] flex justify-between items-center mx-5rem">
         <div>
-            <NuxtLink to="/" class="">
-                <img src="../assets/icon.png"/>
+            <NuxtLink to="/" >
+                <img class=" w-[12rem]"  src="../assets/icon.png"/>
             </NuxtLink>
         </div>
         <div class="flex col justify-between w-[20rem] text-2xl">
