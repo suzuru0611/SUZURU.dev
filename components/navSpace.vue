@@ -2,7 +2,7 @@
     <div class="h-[10vh] flex justify-between items-center mx-5rem">
         <div>
             <NuxtLink to="/" >
-                <img class=" w-[12rem]"  src="../assets/icon.png"/>
+                <img class=" w-[8rem] xl:w-[12rem]"  src="../assets/icon.png"/>
             </NuxtLink>
         </div>
         <div class="flex col justify-between w-[20rem] text-2xl">
