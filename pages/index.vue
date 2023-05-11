@@ -12,6 +12,7 @@
       </div>
     </section>
     <aboutSpace/>
+    <FooterSpace/>
  
   </div>
   
