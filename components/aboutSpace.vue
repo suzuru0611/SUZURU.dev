@@ -2,8 +2,8 @@
  <div class="about rounded-lg ">
    <small class="text-[1.3rem] text-white tracking-[0.7rem]">關於我</small>       
    <strong class="text-[6rem] text-white my-3rem ">About Me!</strong>
-   <NuxtLink to="/about"  class="no-underline">
-     <div class="text-[1.3rem] justify-center flex items-center w-[12rem] h-[3.5rem] rounded-xl border-2 border-white border-solid bg-transparent text-white">More....</div>
+   <NuxtLink to="/about"  class="no-underline ease-in duration-300">
+     <div class="text-[1.3rem] justify-center ease-in duration-300 flex items-center w-[12rem] h-[3.5rem] rounded-xl border-2 border-white border-solid bg-transparent text-white">More....</div>
    </NuxtLink>
  </div>
 </template>
