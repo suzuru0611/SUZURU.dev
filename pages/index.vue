@@ -8,7 +8,7 @@
         <P class="text-[1rem] font-bold lg:text-[1.5rem] text-gray-700 " >( There are some whimsical works stored here,<br>which are inspired by life )</P>
       </div>
       <div class="flex w-full justify-end relative right-[2rem] 2xl:absolute">
-        <img class="flex w-[45vw] 2xl:w-[50vw]" src="../assets/indexComputer.gif" alt="Animated GIF">
+        <img class="flex w-[42vw] " src="../assets/indexComputer.gif" alt="Animated GIF">
       </div>
     </section>
     <aboutSpace/>
