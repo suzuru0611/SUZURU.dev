@@ -16,13 +16,13 @@
   </div>
   <div class="flex col justify-between w-[10rem] py-2rem ">
     <a href="">
-      <img class="w-[2rem] hover:opacity-60" src="../assets/github.png" alt="github">
+      <img class="w-[2rem] hover:animate-pulse " src="../assets/github.png" alt="github">
     </a>
     <a href="">
-      <img class="w-[2rem] hover:opacity-60" src="../assets/linkin.png" alt="linkin">
+      <img class="w-[2rem] hover:animate-pulse " src="../assets/linkin.png" alt="linkin">
     </a>
     <a href="">
-      <img class="w-[2rem] hover:opacity-60" src="../assets/behance.png" alt="behance">  
+      <img class="w-[2rem] hover:animate-pulse " src="../assets/behance.png" alt="behance">  
     </a>
   </div>
   <p class="pb-[2rem]">SUZURU All Rights Reserved.</p>
