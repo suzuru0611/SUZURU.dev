@@ -1,7 +1,7 @@
 <template>
   <div class="bg-[#edeae5]  w-full ">
-  <NavSpace/> 
-  <section class="overflow-hidden">
+   <NavSpace/> 
+   <section class="overflow-hidden">
       <marquee/>
       <div class="grid grid-cols-1 gap-y-10 xl:grid-cols-2">
         <div class="cardBg rounded-3xl justify-center z-10  xl:bg-white xl:justify-start 	">
@@ -46,7 +46,7 @@
         </div>
       </div>
       <marquee/>
-  </section> 
+   </section> 
   </div>
   <FooterSpace/>
 </template>
