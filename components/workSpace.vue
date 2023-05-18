@@ -1,9 +1,9 @@
 <template>
   <div class="bg-[#edeae5]  w-full ">
-   <NavSpace/> 
+    <P class="">作品</P>
+    <p>Works</p>
    <section class="overflow-hidden">
-      <marquee/>
-      <div class="grid grid-cols-1 gap-y-10 xl:grid-cols-2">
+      <div class="grid grid-cols-1 gap-y-10 xl:grid-cols-3">
         <div class="cardBg rounded-3xl justify-center z-10  xl:bg-white xl:justify-start 	">
             <div class=" items-center absolute z-0 xl:relative">
               <img class="flex  m-5  w-[45vw]  xl:w-[20vw]  opacity-30 xl:opacity-100" src="../assets/cdPlayer.gif" alt="Animated GIF">
@@ -45,24 +45,11 @@
             </descript>
         </div>
       </div>
-      <div v-for="item in items" :key="item.id" class="cardBg rounded-3xl justify-center z-10  xl:bg-white xl:justify-start ">
-        <div class="items-center absolute z-0 xl:relative">
-          <img class="flex m-5 w-[45vw] xl:w-[20vw] opacity-30 xl:opacity-100" :src="item.imgSrc" :alt="item.imgAlt">
-        </div>
-        <descript class="flex flex-col justify-center mb-8 break-all z-10 h-[40rem] items-center xl:h-auto xl:items-start">
-         <strong class="text-[2rem] mb-3 xl:text-[2.2rem] 2xl:text-[2.4em]">{{ item.title }}</strong>
-         <small class="text-[1rem] mb-3 xl:text-[1.2rem] 2xl:text-[1.4rem]">{{ item.description }}</small>
-         <a :href="item.link" class="no-underline">
-          <div class="border-2 border-slate border-solid justify-center items-center flex rounded-xl w-[12rem] h-[3rem] text-[1.3rem] text-black hover:animate-pulse">More...</div>
-         </a>
-        </descript>
-      </div>
-      <marquee/>
    </section> 
   </div>
-  <FooterSpace/>
 </template>
 <style > 
+
 .cardBg {
   display: flex;
   flex-direction: row;
@@ -78,17 +65,6 @@
 .cardBg:hover{
  background-color: #d9b61d;
 }
-</style>
-<script setup>
-const items=[
-  {
-  id:1,
-  imgSrc:"~/assets/cdPlayer.gif",
-  imgAlt:"Asadf",
-  title:"S Squid",
-  description: "紓壓用小魷魚",
-  link: "https://www.youtube.com/watch?v=xhfJOkeBHy8"
-  }
-]
 
-</script>
+
+</style>

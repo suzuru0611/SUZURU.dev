@@ -1,5 +1,5 @@
 <template>
-<footer class="w-full flex justify-center items-center flex-col ">
+<footer class="flex m-5 justify-center items-center flex-col xl:rounded-3xl  ">
   <div class="py-2rem xl:relative"><img src="../assets/icon.png" alt="icon"></div>
   <div class=" flex-row flex justify-center">
     <div class="flex col justify-between w-[20rem] text-2xl">
