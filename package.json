@@ -17,5 +17,8 @@
     "@unocss/preset-icons": "^0.51.13",
     "nuxt": "^3.4.2",
     "unocss": "^0.51.13"
+  },
+  "dependencies": {
+    "daisyui": "^2.51.6"
   }
 }
