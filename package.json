@@ -9,10 +9,13 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@iconify-json/emojione-monotone": "^1.1.4",
+    "@iconify-json/tabler": "^1.1.76",
+    "@iconify/json": "^2.2.66",
     "@types/node": "^18",
     "@unocss/nuxt": "^0.51.8",
-    "@unocss/preset-icons": "^0.51.8",
+    "@unocss/preset-icons": "^0.51.13",
     "nuxt": "^3.4.2",
-    "unocss": "^0.51.8"
+    "unocss": "^0.51.13"
   }
 }
