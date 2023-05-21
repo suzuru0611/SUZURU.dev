@@ -1,9 +1,8 @@
 <template>
-  <div class="bg-[#edeae5]  w-full ">
+  <div class="bg-[#edeae5]  w-full h-auto min-h-screen">
    <NavSpace/> 
    <section class="overflow-hidden">
       <marquee/>
-
       <div class="grid grid-cols-1 gap-y-10 xl:grid-cols-2">
        <div v-for="item in items" :key="item.id" class="cardBg rounded-3xl justify-center z-10  xl:bg-white xl:justify-start ">
          <div class="items-center absolute z-0 xl:relative">
@@ -78,7 +77,7 @@ const items=[
   imgAlt:"squidGif",
   title:"S Squid",
   description: "紓壓用小魷魚",
-  link: "https://www.youtube.com/watch?v=xhfJOkeBHy8"
+  link: "https://suzuru0611.github.io/SPLATOON/"
   },
 ]
 
