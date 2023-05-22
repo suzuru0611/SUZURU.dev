@@ -8,9 +8,7 @@
 <style > 
 .marquee {
   white-space: nowrap;
-
 }
-
 .marquee span {
   display: inline-block;
   width: 100%;

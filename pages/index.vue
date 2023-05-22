@@ -15,7 +15,6 @@
     <WorkSpace/>
   </div>
   <FooterSpace/>
-  
 </template>
 <style > 
 html, body {

@@ -80,5 +80,4 @@ const items=[
   link: "https://suzuru0611.github.io/SPLATOON/"
   },
 ]
-
 </script>
