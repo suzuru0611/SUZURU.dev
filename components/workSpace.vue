@@ -1,34 +1,34 @@
 <template>
   <div class="py-20 mx-2rem md:mx-10rem">
     <div class="flex w-full ">      
-      <div class="cardBg items-center overflow-hidden  w-2/3 justify-center bg-white relative  xl:items-center ">
-        <div class="w-1/3">
-          <div class="justify-center opacity-0 hover:opacity-100 items-center absolute">
-            <img src="@/assets/phone.gif" alt="phone.gif"  class="flex w-[25rem] opacity-30 xl:opacity-100">
+      <div class="flex flex-col align-center items-center overflow-hidden mr-[20rem]  w-2/3 justify-center  xl:items-center ">
+        <div class="block relative overflow-hidden  rounded-3xl  ">
+          <div class="-z-10">
+            <img src="@/assets/skate.jpg" alt="squid.jpg"  class="flex w-full ">
           </div>
-          <descript class="flex flex-col rounded-3xl justify-center mb-8 break-all transition duration-300   h-[30rem] items-center opacity-0 hover:opacity-100 xl:h-[20rem] ">
+          <descript class="flex flex-col  z-10 justify-center absolute  break-all  items-center">
+            <strong class="text-[2rem] xl:text-[2.2rem] text-white 2xl:text-[3em]">Weather Report</strong>
+            <a href="https://www.youtube.com/watch?v=xhfJOkeBHy8" class="no-underline">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-[3rem]" viewBox="0 0 24 24"><g transform="rotate(-90 12 12)"><g fill="none" stroke="#142342" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke-dasharray="20" stroke-dashoffset="20" d="M21 12H3.5"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="20;0"/></path><path stroke-dasharray="12" stroke-dashoffset="12" d="M3 12L10 19M3 12L10 5"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.3s" dur="0.2s" values="12;0"/></path></g></g></svg>
+            </a>
+          </descript>
+        </div>      
+        <div class="block  rounded-3xl ">
+          <!-- <div class="justify-center  items-center absolute">
+            <img src="@/assets/phone.gif" alt="phone.gif"  class="flex w-[25rem] opacity-30 xl:opacity-100">
+          </div> -->
+          <descript class="flex flex-col rounded-3xl justify-center mb-8 break-all transition duration-300   bg-white h-[30rem] items-center xl:h-[20rem] ">
             <strong class="text-[2rem] mb-3 xl:text-[2.2rem] text-[#142342] 2xl:text-[3em]">Weather Report</strong>
             <a href="https://www.youtube.com/watch?v=xhfJOkeBHy8" class="no-underline">
               <svg xmlns="http://www.w3.org/2000/svg" class="w-[3rem]" viewBox="0 0 24 24"><g transform="rotate(-90 12 12)"><g fill="none" stroke="#142342" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke-dasharray="20" stroke-dashoffset="20" d="M21 12H3.5"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="20;0"/></path><path stroke-dasharray="12" stroke-dashoffset="12" d="M3 12L10 19M3 12L10 5"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.3s" dur="0.2s" values="12;0"/></path></g></g></svg>
             </a>
           </descript>
         </div>      
-        <div class="w-1/3">
-          <div class="justify-center opacity-0 hover:opacity-100 items-center absolute">
+        <div class="block  rounded-3xl ">
+          <!-- <div class="justify-center  items-center absolute">
             <img src="@/assets/phone.gif" alt="phone.gif"  class="flex w-[25rem] opacity-30 xl:opacity-100">
-          </div>
-          <descript class="flex flex-col rounded-3xl justify-center mb-8 break-all transition duration-300   h-[30rem] items-center opacity-0 hover:opacity-100 xl:h-[20rem] ">
-            <strong class="text-[2rem] mb-3 xl:text-[2.2rem] text-[#142342] 2xl:text-[3em]">Weather Report</strong>
-            <a href="https://www.youtube.com/watch?v=xhfJOkeBHy8" class="no-underline">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-[3rem]" viewBox="0 0 24 24"><g transform="rotate(-90 12 12)"><g fill="none" stroke="#142342" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke-dasharray="20" stroke-dashoffset="20" d="M21 12H3.5"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="20;0"/></path><path stroke-dasharray="12" stroke-dashoffset="12" d="M3 12L10 19M3 12L10 5"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.3s" dur="0.2s" values="12;0"/></path></g></g></svg>
-            </a>
-          </descript>
-        </div>      
-        <div class="w-1/3">
-          <div class="justify-center opacity-0 hover:opacity-100 items-center absolute">
-            <img src="@/assets/phone.gif" alt="phone.gif"  class="flex w-[25rem] opacity-30 xl:opacity-100">
-          </div>
-          <descript class="flex flex-col rounded-3xl justify-center mb-8 break-all transition duration-300  h-[30rem] items-center opacity-0 hover:opacity-100 xl:h-[20rem] ">
+          </div> -->
+          <descript class="flex flex-col rounded-3xl justify-center mb-8 break-all transition duration-300  bg-white h-[30rem] items-center xl:h-[20rem] ">
             <strong class="text-[2rem] mb-3 xl:text-[2.2rem] text-[#142342] 2xl:text-[3em]">Weather Report</strong>
             <a href="https://www.youtube.com/watch?v=xhfJOkeBHy8" class="no-underline">
               <svg xmlns="http://www.w3.org/2000/svg" class="w-[3rem]" viewBox="0 0 24 24"><g transform="rotate(-90 12 12)"><g fill="none" stroke="#142342" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke-dasharray="20" stroke-dashoffset="20" d="M21 12H3.5"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="20;0"/></path><path stroke-dasharray="12" stroke-dashoffset="12" d="M3 12L10 19M3 12L10 5"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.3s" dur="0.2s" values="12;0"/></path></g></g></svg>
@@ -51,12 +51,12 @@
     </div>
 
   </div>
-  
+
 </template>
 <style > 
-.cardBg {
-  display: flex;
-  flex-direction: row;
+.workBg {
+  display: grid;
+  flex-direction:column;
   align-items: center;
   margin-left: 3rem;
   margin-right: 3rem;
@@ -66,9 +66,27 @@
   transition: background-color 0.4s ease;
 }
 
-.cardBg:hover{
+.workBg:hover{
  background-color: #d9b61d;
 }
+
+.container {
+  display: flex;
+}
+
+.block {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  margin: 10px;
+  transition: transform 0.3s;
+}
+
+.block:hover {
+  transform: scale(0.8);
+}
+
+
 </style>
 <script setup>
 import cdPlayerGif from '~/assets/cdPlayer.gif'
