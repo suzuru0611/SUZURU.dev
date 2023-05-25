@@ -1,52 +1,47 @@
 <template>
-  <div class="py-20 mx-2rem md:mx-10rem">
-    <div class="flex w-full ">      
-      <div class="flex flex-col align-center items-center overflow-hidden mr-[20rem]  w-2/3 justify-center  xl:items-center ">
-        <div class="block relative overflow-hidden  rounded-3xl  ">
-          <div class="-z-10">
-            <img src="@/assets/skate.jpg" alt="squid.jpg"  class="flex w-full ">
+  <div class="py-30 mx-2rem md:mx-10rem overflow-hidden">
+    <div class="flex flex-col w-full ">  
+      <div class=" flex flex-col  tracking-wide leading-loose pb-0 xl:pb-[5rem]">
+        <div class="flex flex-col xl:flex-row items-end relative">
+          <div class="w-full xl:w-2/3">
+            <div >
+              <p class="text-[6rem] text-slate-500 my-3rem">Works</p>
+            </div>
+            <descript class="flex flex-col mb-8 break-all z-10   xl:h-auto ">
+              <strong class="text-[2rem] mb-3 xl:text-[2.2rem] 2xl:text-[2.4em] ">作品都會集中在這,存放的種類並沒有特別限制、所以可以看到不同類型的作品</strong>
+              <small class="text-[1rem] font-bold lg:text-[1.5rem] text-gray-700 " >(The works will be concentrated here, and the types of storage are not particularly limited,so you can see different types of works)</small>
+            </descript>
           </div>
-          <descript class="flex flex-col  z-10 justify-center absolute  break-all  items-center">
-            <strong class="text-[2rem] xl:text-[2.2rem] text-white 2xl:text-[3em]">Weather Report</strong>
-            <a href="https://www.youtube.com/watch?v=xhfJOkeBHy8" class="no-underline">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-[3rem]" viewBox="0 0 24 24"><g transform="rotate(-90 12 12)"><g fill="none" stroke="#142342" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke-dasharray="20" stroke-dashoffset="20" d="M21 12H3.5"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="20;0"/></path><path stroke-dasharray="12" stroke-dashoffset="12" d="M3 12L10 19M3 12L10 5"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.3s" dur="0.2s" values="12;0"/></path></g></g></svg>
-            </a>
-          </descript>
-        </div>      
-        <div class="block  rounded-3xl ">
-          <!-- <div class="justify-center  items-center absolute">
-            <img src="@/assets/phone.gif" alt="phone.gif"  class="flex w-[25rem] opacity-30 xl:opacity-100">
-          </div> -->
-          <descript class="flex flex-col rounded-3xl justify-center mb-8 break-all transition duration-300   bg-white h-[30rem] items-center xl:h-[20rem] ">
-            <strong class="text-[2rem] mb-3 xl:text-[2.2rem] text-[#142342] 2xl:text-[3em]">Weather Report</strong>
-            <a href="https://www.youtube.com/watch?v=xhfJOkeBHy8" class="no-underline">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-[3rem]" viewBox="0 0 24 24"><g transform="rotate(-90 12 12)"><g fill="none" stroke="#142342" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke-dasharray="20" stroke-dashoffset="20" d="M21 12H3.5"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="20;0"/></path><path stroke-dasharray="12" stroke-dashoffset="12" d="M3 12L10 19M3 12L10 5"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.3s" dur="0.2s" values="12;0"/></path></g></g></svg>
-            </a>
-          </descript>
-        </div>      
-        <div class="block  rounded-3xl ">
-          <!-- <div class="justify-center  items-center absolute">
-            <img src="@/assets/phone.gif" alt="phone.gif"  class="flex w-[25rem] opacity-30 xl:opacity-100">
-          </div> -->
-          <descript class="flex flex-col rounded-3xl justify-center mb-8 break-all transition duration-300  bg-white h-[30rem] items-center xl:h-[20rem] ">
-            <strong class="text-[2rem] mb-3 xl:text-[2.2rem] text-[#142342] 2xl:text-[3em]">Weather Report</strong>
-            <a href="https://www.youtube.com/watch?v=xhfJOkeBHy8" class="no-underline">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-[3rem]" viewBox="0 0 24 24"><g transform="rotate(-90 12 12)"><g fill="none" stroke="#142342" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke-dasharray="20" stroke-dashoffset="20" d="M21 12H3.5"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="20;0"/></path><path stroke-dasharray="12" stroke-dashoffset="12" d="M3 12L10 19M3 12L10 5"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.3s" dur="0.2s" values="12;0"/></path></g></g></svg>
-            </a>
-          </descript>
-        </div>      
-      </div>
-      <div class=" rounded-3xl flex flex-col w-1/3 tracking-wide leading-loose ">
-        <div >
-          <p class="text-[6rem] text-slate-500 my-3rem">Works</p>
+          <div class="w-full xl:w-auto ">
+            <NuxtLink to="/works" >
+                <img src="@/assets/more.gif" alt="more.gif" class=" w-[20rem] md:w-[28rem] xl:w-[20rem] ">
+            </NuxtLink>
+          </div>
         </div>
-        <descript class="flex flex-col mb-8 break-all z-10 h-[40rem]  xl:h-auto ">
-          <strong class="text-[2rem] mb-3 xl:text-[2.2rem] 2xl:text-[2.4em] ">作品都會集中在這,存放的種類並沒有特別限制、所以可以看到不同類型的作品</strong>
-          <small class="text-[1rem] font-bold lg:text-[1.5rem] text-gray-700 " >(The works will be concentrated here, and the types of storage are not particularly limited, so you can see different types of works)</small>
-          <a class="no-underline py-2rem">
-           <div class="border-2 border-slate border-solid justify-center items-center flex rounded-xl w-[12rem] h-[3rem] text-[1.3rem] text-black hover:animate-pulse">More...</div>
+      </div>
+      <div class="flex flex-col xl:flex-row align-center items-center xl:mr-[5rem]   justify-center  xl:items-center ">
+        <div class="block  rounded-3xl overflow-hidden   ">
+          <a href="https://suzuru0611.github.io/8BITS-MUSIC/">
+            <div class="">
+              <img src="@/assets/cdplayer.jpg" alt="squid.jpg"  class="flex w-full ">
+            </div>
           </a>
-        </descript>
+        </div>      
+        <div class="block  rounded-3xl overflow-hidden   ">
+          <a href="https://suzuru0611.github.io/Weather-Report/">
+            <div class="">
+              <img src="@/assets/skate.jpg" alt="squid.jpg"  class="flex w-full ">
+            </div>
+          </a>
+        </div>      
+        <div class="block  rounded-3xl overflow-hidden   ">
+          <a href="https://suzuru0611.github.io/SPLATOON/">
+            <div class="">
+              <img src="@/assets/squid.jpg" alt="squid.jpg"  class="flex w-full ">
+            </div>
+          </a>
+        </div>      
+   
       </div>
     </div>
 

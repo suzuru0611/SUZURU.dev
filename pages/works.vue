@@ -53,7 +53,7 @@ const items=[
   imgAlt:"cdPlayerGif",
   title:"8 bits CDPlayer",
   description: "收藏了有關自製的8 BITs音樂",
-  link: "https://www.youtube.com/watch?v=xhfJOkeBHy8"
+  link: "https://suzuru0611.github.io/8BITS-MUSIC/"
   },
   {
   id:2,
@@ -61,7 +61,7 @@ const items=[
   imgAlt:"phoneGif",
   title:"Weather Report",
   description: "查明天帶什麼出門",
-  link: "https://www.youtube.com/watch?v=xhfJOkeBHy8"
+  link: "https://suzuru0611.github.io/Weather-Report/"
   },
   {
   id:3,
@@ -69,7 +69,7 @@ const items=[
   imgAlt:"suzuruGif",
   title:"SUZURU",
   description: "用於存放各個作品的網站",
-  link: "https://www.youtube.com/watch?v=xhfJOkeBHy8"
+  link: "https://homepage-suzuru0611.vercel.app/"
   },
   {
   id:4,
