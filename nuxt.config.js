@@ -3,8 +3,8 @@ export default defineNuxtConfig({
     modules: [
       '@unocss/nuxt',
     ],
-    build: {
-      baseURL: '/myProject',
-    },
+    app: {
+      baseURL: '/nuxt-github-pages/' // baseURL: '/<repository>/'
+    }
 })
 
