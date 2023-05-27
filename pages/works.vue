@@ -69,7 +69,7 @@ const items=[
   imgAlt:"suzuruGif",
   title:"SUZURU",
   description: "用於存放各個作品的網站",
-  link: "https://homepage-suzuru0611.vercel.app/"
+  link: "https://suzuru.vercel.app/"
   },
   {
   id:4,
