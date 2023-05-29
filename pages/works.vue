@@ -44,6 +44,7 @@ import cdPlayerGif from '~/assets/cdPlayer.gif'
 import phoneGif from '~/assets/phone.gif'
 import suzuruGif from '~/assets/suzuru.gif'
 import squidGif from '~/assets/squid.gif'
+import SikonNoTamaGif from '~/assets/SikonNoTama.gif'
 
 
 const items=[
@@ -78,6 +79,14 @@ const items=[
   title:"S Squid",
   description: "紓壓用小魷魚",
   link: "https://suzuru0611.github.io/SPLATOON/"
+  },
+  {
+  id:5,
+  imgSrc:SikonNoTamaGif ,
+  imgAlt:"SikonNoTamaGif",
+  title:"SikonNoTama",
+  description: "用數據控制形體變化",
+  link: "https://suzuru0611.github.io/SikonNoTama/"
   },
 ]
 </script>
