@@ -86,7 +86,7 @@ import cdPlayerGif from '~/assets/cdPlayer.gif'
 import phoneGif from '~/assets/phone.gif'
 import suzuruGif from '~/assets/suzuru.gif'
 
-
+//存放各作品資料內容
 const items = [
   {
     id: 1,

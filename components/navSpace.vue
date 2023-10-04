@@ -55,6 +55,8 @@
     </div>
 </template>
 <script setup>
+
+//控制漢堡按鈕
 const showMobileMenu = ref(false)
 const toggleMobileMenu = () => {
     showMobileMenu.value = !showMobileMenu.value
@@ -69,4 +71,5 @@ const toggleMobileMenu = () => {
 .fade-enter,
 .fade-leave-to {
     opacity: 0;
-}</style>
+}
+</style>

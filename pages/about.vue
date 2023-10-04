@@ -74,4 +74,5 @@
    100% {
      transform: translateX(-100%);
    }
- }</style>
+ }
+</style>

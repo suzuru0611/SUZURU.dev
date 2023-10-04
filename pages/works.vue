@@ -49,7 +49,7 @@ import suzuruGif from '~/assets/suzuru.gif'
 import squidGif from '~/assets/squid.gif'
 import SikonNoTamaGif from '~/assets/SikonNoTama.gif'
 
-
+//存放各作品資料內容
 const items = [
   {
     id: 1,
