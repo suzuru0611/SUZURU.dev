@@ -9,7 +9,7 @@
           here,<br>which are inspired by life )</P>
       </div>
       <div class="flex w-full justify-end relative  2xl:absolute">
-        <img class="flex w-[40vw] " src="../assets/indexComputer.gif" alt="Animated GIF">
+        <img class="flex w-[34vw] " src="../assets/indexComputer.gif" alt="Animated GIF">
       </div>
     </section>
     <aboutSpace />
